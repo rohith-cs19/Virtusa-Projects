@@ -1,0 +1,6 @@
+net\javaguides\departmentservice\controller\DepartmentController.class
+net\javaguides\departmentservice\entity\Department.class
+net\javaguides\departmentservice\repository\DepartmentRepository.class
+net\javaguides\departmentservice\service\DepartmentService.class
+net\javaguides\departmentservice\service\impl\DepartmentServiceImpl.class
+net\javaguides\departmentservice\DepartmentServiceApplication.class
