@@ -1,0 +1,21 @@
+<div style="text-align:center">
+<h1>Currency Converter</h1>  
+<p>From:</p>
+<select name="Country" #country (change)="onFrom(country.value)">
+    <option value="" selected disabled hidden>Choose</option>
+    <option  value="INR">India</option>
+    <option value="USD">United States</option>
+    <option  value="AUS">Australia</option>
+</select>
+ <p>To:</p>
+<select name="Country" #to (change)="onTo(to.value)">
+    <option value="" selected disabled hidden>Choose</option>
+    <option value="INR">India</option>
+    <option value="USD">United States</option>  
+    <option  value="AUS">Australia</option>
+</select>
+<br><br>      
+<input type="text" placeholder="Amount here" #bx1 ><br><br>
+<button (click)="convert(+bx1.value)">Convert</button><br><br>
+<h3>Result : {{result}}</h3>
+</div>
